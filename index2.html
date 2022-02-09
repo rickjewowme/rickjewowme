@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Admin Login Page</title>
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style2.css">
+	<link rel="icon" href="#" class="fas-fa-user">
+</head>
+<body>
+	<div class="container">
+		<h2 class="label">Admin Login</h2>
+		<form class="login_form" action="index.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" name="email" placeholder="Enter any email you want.">
+			<div id="email_error">Please fill up your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password" placeholder="Enter any password you want.">
+			<div id="pass_error">Please fill up your Password</div>
+			<button type="submit">Login</button>
+		</form>
+	</div>	
+	<script src="valid.js"></script>
+</body>
+</html>
